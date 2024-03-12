@@ -52,7 +52,7 @@ public partial class ExampleClass: Node {
         // Create new Audio Stream Player
         AudioStreamPlayer streamPlayer = new();
 
-        // Asynchronously loading and saving audio stream
+        // Asynchronously loading and assigning audio stream
         streamPlayer.Stream = await AsyncResourceLoader.LoadResource<AudioStream>(pathToAudioFile);
 
         // Add Audio Stream Player to the tree
