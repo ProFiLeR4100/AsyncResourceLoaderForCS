@@ -48,7 +48,7 @@ public partial class ExampleClass: Node {
         PlayAudio("res://sound.mp3");
     }
 
-    private async Task<Resource> PlayAudio(string pathToAudioFile) {
+    private async Task PlayAudio(string pathToAudioFile) {
         // Create new Audio Stream Player
         AudioStreamPlayer streamPlayer = new();
 
