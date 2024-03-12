@@ -1,5 +1,9 @@
 # Async Resource Loader (C#)
 
+<p align="center">
+  <img width="256" height="256" src="https://raw.githubusercontent.com/ProFiLeR4100/AsyncResourceLoaderForCS/master/images/logo.png">
+</p>
+
 Allows to use standard C# async/await to load resources for Godot engine.
 
 _Supports only Godot 4.0+_
